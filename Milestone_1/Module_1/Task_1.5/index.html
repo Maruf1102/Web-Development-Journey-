@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Box Model - New Output</title>
+    
+    <style>
+       
+        body {
+            background-color: #eef2f3; 
+            font-family: Arial, sans-serif; 
+            margin: 20px;
+        }
+
+        h2, h3 {
+            color: #333333; 
+        }
+
+        
+        form {
+            width: 320px;               
+            padding: 30px;              
+            margin: 40px auto;          
+            border-radius: 15px;        
+            background-color: white;    
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2); 
+        }
+
+        
+        input, select {
+            width: 100%;               
+            padding: 10px;              
+            margin-bottom: 15px;        
+            border: 1px solid #ccc;     
+            border-radius: 5px;        
+            box-sizing: border-box;     
+        }
+
+       
+        .my-btn {
+            background-color: #007bff; 
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;              
+            font-size: 16px;           
+            cursor: pointer;
+        }
+
+        
+        .my-btn:hover {
+            background-color: #0056b3; 
+        }
+        .container_1{
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;              
+            font-size: 16px;           
+           
+        }
+    </style>
+</head>
+<body>
+
+    <h2>HTML Basics Practice</h2>
+    <p>This is a normal paragraph. Below this, we are adding our new elements!</p>
+    
+    <hr>
+
+    <h3>My Favorite Colors</h3>
+    <ul>
+        <li>Blue</li>
+        <li>Black</li>
+        <li>White</li>
+    </ul>
+
+    <button type="button">Submit (Normal Button)</button>
+    
+    <br><br>
+
+    <a href="https://www.google.com" target="_blank">Go to Google</a>
+    
+    <br><br>
+
+    <h3>Random Online Image</h3>
+    <img src="https://www.thoughtco.com/thmb/rip9NU8E4ERKbO7hBjwPc98UtfM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/lion-805084_1920-c62a5582169c4bae82553d9a21c1a0bb.jpg" alt="A laptop on a desk showing web development code" width="300">
+
+    <hr>
+
+   <div class="container_1">
+    <form>
+       
+        <h3 >Create Account</h3>
+        
+        <label>Username: </label>
+        <input type="text" placeholder="Enter your username">
+
+        <label>Password: </label>
+        <input type="password" placeholder="Enter secret password">
+
+        <label>Country: </label>
+        <select>
+            <option>Bangladesh</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>Canada</option>
+        </select>
+
+        <button type="submit" class="my-btn">Complete Registration</button>
+    </form>
+    </div>
+
+</body>
+</html>
